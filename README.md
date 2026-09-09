@@ -97,4 +97,5 @@ Class ini digunakan untuk:
 ## 🔄 Alur Program
 
 Alur program dimulai dengan menampilkan menu utama kepada pengguna.
-## 🔄 Alur Program
+<img width="485" height="677" alt="image" src="https://github.com/user-attachments/assets/4f4d7944-d01b-4766-b548-e1d6c69faa77" />
+
