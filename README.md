@@ -99,3 +99,64 @@ Class ini digunakan untuk:
 Alur program dimulai dengan menampilkan menu utama kepada pengguna.
 <img width="485" height="677" alt="image" src="https://github.com/user-attachments/assets/4f4d7944-d01b-4766-b548-e1d6c69faa77" />
 
+## Penjelasan Alur Program
+Ketika program pertama kali dijalankan, program akan menampilkan menu utama Sistem Manajemen Jasa Cuci Sepatu. Menu utama terdiri dari enam pilihan, yaitu Tambah Data, Lihat Data, Ubah Data, Hapus Data, Cari Data, dan Keluar.
+<img width="317" height="166" alt="image" src="https://github.com/user-attachments/assets/4df64799-bc83-4bef-b2c9-739e6595adb3" />
+
+
+Pengguna memilih menu dengan memasukkan angka sesuai dengan pilihan yang tersedia. Program menggunakan percabangan `switch` untuk menentukan proses yang akan dijalankan berdasarkan pilihan pengguna.
+
+### Tambah Data
+Jika pengguna memilih menu Tambah Data, program akan meminta pengguna memasukkan data transaksi.
+Pertama, pengguna memasukkan ID transaksi. Program akan melakukan pengecekan untuk memastikan ID transaksi belum digunakan.
+Selanjutnya pengguna memasukkan data pelanggan yang terdiri dari ID pelanggan, nama, nomor telepon, dan alamat. Setelah itu pengguna memasukkan data sepatu yang terdiri dari ID sepatu, merek, jenis sepatu, dan warna.
+Setelah data pelanggan dan sepatu dimasukkan, pengguna memilih jenis layanan yang tersedia. Program kemudian menentukan harga berdasarkan layanan yang dipilih. Setelah seluruh data lengkap, object `Pelanggan`, `Sepatu`, dan `Transaksi` dibuat menggunakan constructor. Data tersebut kemudian disimpan ke dalam `ArrayList`.
+Status awal transaksi akan diberikan sebagai "Menunggu".
+
+<img width="267" height="381" alt="image" src="https://github.com/user-attachments/assets/7e3c1a20-bcfd-4e92-bea1-379fab94cbf8" />
+
+## Lihat Data
+Jika pengguna memilih menu Lihat Data, program akan menampilkan seluruh transaksi yang telah disimpan.
+Program terlebih dahulu mengecek apakah `ArrayList` transaksi memiliki data. Jika belum terdapat data, program akan menampilkan pesan bahwa belum ada data transaksi.
+Jika terdapat data, program menggunakan perulangan `for-each` untuk mengambil setiap transaksi yang tersimpan dan menampilkannya.
+Informasi yang ditampilkan meliputi ID transaksi, nama pelanggan, nomor telepon, merek sepatu, jenis sepatu, warna, jenis layanan, harga, dan status transaksi.
+
+<img width="355" height="267" alt="image" src="https://github.com/user-attachments/assets/970cdc3d-1060-4354-9673-5388baba9c06" />
+
+## Ubah Data
+Jika pengguna memilih menu Ubah Data, pengguna diminta memasukkan ID transaksi yang ingin diubah.
+Program kemudian mencari transaksi tersebut. Jika ID transaksi tidak ditemukan, program akan menampilkan pesan bahwa data tidak ditemukan.
+Jika data ditemukan, pengguna dapat memilih bagian data yang ingin diubah, yaitu nama pelanggan, nomor telepon, jenis layanan, atau status transaksi.
+Data yang telah diubah akan diperbarui menggunakan setter dan disimpan kembali pada object transaksi.
+
+<img width="260" height="365" alt="image" src="https://github.com/user-attachments/assets/783e7e67-e508-4233-ab75-91f3d4ee39aa" />
+
+## Hapus Data
+Jika pengguna memilih menu Hapus Data, pengguna diminta memasukkan ID transaksi.
+Program akan mencari transaksi berdasarkan ID tersebut. Jika data ditemukan, transaksi akan dihapus dari `ArrayList` menggunakan method `remove()`.
+Jika ID transaksi tidak ditemukan, program akan memberikan pesan bahwa data tidak ditemukan.
+
+<img width="357" height="82" alt="image" src="https://github.com/user-attachments/assets/b06cf3a7-cdba-459c-a8a0-775e84c3c9af" />
+
+## Cari Data
+Jika pengguna memilih menu Cari Data, pengguna memasukkan ID transaksi yang ingin dicari.
+Program akan melakukan pencarian menggunakan perulangan pada `ArrayList`. Setiap ID transaksi akan dibandingkan dengan ID yang dimasukkan pengguna.
+Jika ID ditemukan, informasi transaksi akan ditampilkan. Jika tidak ditemukan, program akan menampilkan pesan bahwa data tidak ditemukan.
+
+<img width="265" height="283" alt="image" src="https://github.com/user-attachments/assets/2024a5be-b8dd-4f67-9b39-e06ff9ccfb57" />
+
+## Keluar
+Jika pengguna memilih menu Keluar atau pilihan nomor 6, program akan menampilkan pesan bahwa program selesai dan kemudian menghentikan perulangan menu.
+Program menggunakan perulangan `do-while`, sehingga menu akan terus ditampilkan dan program tidak berhenti selama pengguna belum memilih menu keluar.
+
+<img width="322" height="242" alt="image" src="https://github.com/user-attachments/assets/0e411745-a05a-483e-8e3a-56ec0701cdd6" />
+
+
+
+
+
+
+
+
+
+
