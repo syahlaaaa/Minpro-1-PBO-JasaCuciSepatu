@@ -153,13 +153,16 @@ Program menggunakan perulangan `do-while`, sehingga menu akan terus ditampilkan 
 <img width="322" height="242" alt="image" src="https://github.com/user-attachments/assets/0e411745-a05a-483e-8e3a-56ec0701cdd6" />
 
 ## Penjelasan letak penerapan nilai tambah
-Program ini menerapkan beberapa nilai tambah yang bersifat opsional, yaitu:
+Pada program Sistem Manajemen Jasa Cuci Sepatu, saya juga menerapkan beberapa nilai tambah yang diberikan pada ketentuan tugas. Nilai tambah yang digunakan yaitu Access Modifier, Encapsulation, dan Input Validation.
+
 ## Access Modifier
-Access modifier private digunakan pada atribut di class Pelanggan, Sepatu, dan Transaksi. Hal ini membuat data tidak dapat diakses langsung dari luar class.
+Access Modifier digunakan untuk mengatur siapa yang bisa mengakses data yang ada di dalam sebuah class. Pada program ini, saya menggunakan private pada data yang ada di class Pelanggan, Sepatu, dan Transaksi. Contohnya seperti nama pelanggan, nomor telepon, merek sepatu, jenis sepatu, harga, dan status transaksi. Dengan menggunakan private, data tersebut tidak bisa diubah atau diambil secara langsung dari luar class.
+
 ## Encapsulation
-Encapsulation diterapkan dengan membuat atribut bersifat private dan menyediakan method getter dan setter untuk mengakses atau mengubah data. Penerapannya terdapat pada class Pelanggan, Sepatu, dan Transaksi.
+Encapsulation digunakan supaya data yang ada di dalam class lebih teratur dan tidak bisa diakses sembarangan. Pada program ini, karena data dibuat private, saya menggunakan getter dan setter untuk mengambil atau mengubah data tersebut. Misalnya, ketika program ingin menampilkan nama pelanggan, program mengambilnya melalui getter. Sedangkan jika ingin mengubah nama atau status transaksi, program dapat menggunakan setter. Penerapan ini terdapat pada class Pelanggan, Sepatu, dan Transaksi.
+
 ## Input Validation
-Validasi input diterapkan pada saat pengguna memasukkan data. Method inputString() digunakan untuk memastikan input tidak kosong, sedangkan inputInt() digunakan untuk menangani input angka yang tidak sesuai agar program tidak langsung berhenti karena error.
+Input Validation digunakan untuk memastikan data yang dimasukkan pengguna sesuai dengan yang dibutuhkan oleh program. Pada program ini, validasi dilakukan ketika pengguna memasukkan data. Jika pengguna tidak mengisi data atau hanya menekan Enter, program akan meminta pengguna untuk mengisi data kembali. Selain itu, untuk bagian yang membutuhkan input angka, program akan mengecek apakah input yang dimasukkan benar-benar berupa angka. Jika bukan angka, program akan memberikan pesan kesalahan dan meminta input kembali.
 
 
 
