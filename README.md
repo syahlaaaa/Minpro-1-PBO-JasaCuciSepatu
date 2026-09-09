@@ -101,6 +101,7 @@ Alur program dimulai dengan menampilkan menu utama kepada pengguna.
 
 ## Penjelasan Alur Program
 Ketika program pertama kali dijalankan, program akan menampilkan menu utama Sistem Manajemen Jasa Cuci Sepatu. Menu utama terdiri dari enam pilihan, yaitu Tambah Data, Lihat Data, Ubah Data, Hapus Data, Cari Data, dan Keluar.
+
 <img width="317" height="166" alt="image" src="https://github.com/user-attachments/assets/4df64799-bc83-4bef-b2c9-739e6595adb3" />
 
 
