@@ -152,6 +152,15 @@ Program menggunakan perulangan `do-while`, sehingga menu akan terus ditampilkan 
 
 <img width="322" height="242" alt="image" src="https://github.com/user-attachments/assets/0e411745-a05a-483e-8e3a-56ec0701cdd6" />
 
+## Penjelasan letak penerapan nilai tambah
+Program ini menerapkan beberapa nilai tambah yang bersifat opsional, yaitu:
+## Access Modifier
+Access modifier private digunakan pada atribut di class Pelanggan, Sepatu, dan Transaksi. Hal ini membuat data tidak dapat diakses langsung dari luar class.
+## Encapsulation
+Encapsulation diterapkan dengan membuat atribut bersifat private dan menyediakan method getter dan setter untuk mengakses atau mengubah data. Penerapannya terdapat pada class Pelanggan, Sepatu, dan Transaksi.
+## Input Validation
+Validasi input diterapkan pada saat pengguna memasukkan data. Method inputString() digunakan untuk memastikan input tidak kosong, sedangkan inputInt() digunakan untuk menangani input angka yang tidak sesuai agar program tidak langsung berhenti karena error.
+
 
 
 
