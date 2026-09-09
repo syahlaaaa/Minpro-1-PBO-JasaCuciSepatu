@@ -98,29 +98,3 @@ Class ini digunakan untuk:
 
 Alur program dimulai dengan menampilkan menu utama kepada pengguna.
 ## 🔄 Alur Program
-
-```mermaid
-flowchart TD
-    A([MULAI]) --> B[Tampilkan Menu]
-    B --> C[Input Pilihan]
-    C --> D{Pilih Menu}
-
-    D -->|1. Tambah| E[Tambah Data]
-    D -->|2. Lihat| F[Tampilkan Data]
-    D -->|3. Ubah| G[Ubah Data]
-    D -->|4. Hapus| H[Hapus Data]
-    D -->|5. Cari| I[Cari Data]
-    D -->|6. Keluar| J([SELESAI])
-
-    E --> B
-    F --> B
-    G --> B
-    H --> B
-    I --> B
-```
-      CRUD                Selesai
-          │
-          ▼
-     Kembali ke Menu
-          │
-          └───────────────↺
