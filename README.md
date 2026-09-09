@@ -1,4 +1,4 @@
-# 🧼 Sistem Manajemen Jasa Cuci Sepatu
+# 😶‍🌫️ Sistem Manajemen Jasa Cuci Sepatu
 
 ## 📌 Deskripsi Singkat
 
